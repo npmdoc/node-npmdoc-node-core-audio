@@ -1,0 +1,30 @@
+<svg height="430" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="430" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">4 megabytes</tspan>
+<tspan x="10" y="42">├─┬ node-core-audio@0.5.1 </tspan>
+<tspan x="10" y="58">│ ├─┬ audio-streamer@0.1.0 </tspan>
+<tspan x="10" y="74">│ │ └─┬ binaryjs@0.2.1 </tspan>
+<tspan x="10" y="90">│ │   ├─┬ binarypack@0.0.4 </tspan>
+<tspan x="10" y="106">│ │   │ └─┬ buffercursor@0.0.12 </tspan>
+<tspan x="10" y="122">│ │   │   └─┬ verror@1.9.0 </tspan>
+<tspan x="10" y="138">│ │   │     ├── assert-plus@1.0.0 </tspan>
+<tspan x="10" y="154">│ │   │     ├── core-util-is@1.0.2 </tspan>
+<tspan x="10" y="170">│ │   │     └── extsprintf@1.3.0 </tspan>
+<tspan x="10" y="186">│ │   ├─┬ streamers@0.1.1 </tspan>
+<tspan x="10" y="202">│ │   │ ├── underscore@1.2.3 </tspan>
+<tspan x="10" y="218">│ │   │ └─┬ vows@0.6.1 </tspan>
+<tspan x="10" y="234">│ │   │   └── eyes@0.1.8 </tspan>
+<tspan x="10" y="250">│ │   └─┬ streamws@0.1.1 </tspan>
+<tspan x="10" y="266">│ │     ├── commander@0.6.1 </tspan>
+<tspan x="10" y="282">│ │     ├── options@0.0.6 </tspan>
+<tspan x="10" y="298">│ │     └── tinycolor@0.0.1 </tspan>
+<tspan x="10" y="314">│ ├── fft@0.2.1 </tspan>
+<tspan x="10" y="330">│ ├── nan@2.6.1 </tspan>
+<tspan x="10" y="346">│ └─┬ portfinder@0.2.1 </tspan>
+<tspan x="10" y="362">│   └── mkdirp@0.0.7 </tspan>
+<tspan x="10" y="378">└─┬ waveheader@0.0.2  (git://github.com/mrose17/node-waveheader.git#268ea1b55ad7bb818340ae230dfa\</tspan>
+<tspan x="10" y="394">ae4f4c59f564)</tspan>
+<tspan x="10" y="410">  └── debug@0.7.4</tspan>
+</text>
+</svg>
