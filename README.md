@@ -1,9 +1,14 @@
-# api documentation for  [node-core-audio (v0.5.1)](https://github.com/ZECTBynmo/node-core-audio)  [![npm package](https://img.shields.io/npm/v/npmdoc-node-core-audio.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-node-core-audio) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-node-core-audio.svg)](https://travis-ci.org/npmdoc/node-npmdoc-node-core-audio)
+# npmdoc-node-core-audio
+
+#### api documentation for  [node-core-audio (v0.5.1)](https://github.com/ZECTBynmo/node-core-audio)  [![npm package](https://img.shields.io/npm/v/npmdoc-node-core-audio.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-node-core-audio) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-node-core-audio.svg)](https://travis-ci.org/npmdoc/node-npmdoc-node-core-audio)
+
 #### Core native node.js audio functionality, including sound card access and audio streaming
 
-[![NPM](https://nodei.co/npm/node-core-audio.png?downloads=true)](https://www.npmjs.com/package/node-core-audio)
+[![NPM](https://nodei.co/npm/node-core-audio.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/node-core-audio)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-node-core-audio/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-node-core-audio_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-node-core-audio/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-node-core-audio/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-node-core-audio/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-node-core-audio/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-node-core-audio/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-node-core-audio/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Mike Vegeto",
-        "email": "michael.vegeto@gmail.com",
         "url": "http://mikevegeto.com/"
     },
     "bugs": {
@@ -27,17 +31,14 @@
     "contributors": [
         {
             "name": "Marc J. Schmidt",
-            "email": "marc@kryn.org",
             "url": "http://marcjschmidt.de/"
         },
         {
             "name": "Jeremiah Senkpiel",
-            "email": "fishrock123@rocketmail.com",
             "url": "http://searchbeam.jit.su/"
         },
         {
             "name": "Daniel Church",
-            "email": "CrazyNorman@gmail.com",
             "url": "https://github.com/anprogrammer/"
         }
     ],
@@ -76,13 +77,11 @@
     "main": "./node-core-audio",
     "maintainers": [
         {
-            "name": "mvegeto",
-            "email": "michael.vegeto@gmail.com"
+            "name": "mvegeto"
         }
     ],
     "name": "node-core-audio",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/ZECTBynmo/node-core-audio.git"
@@ -91,48 +90,9 @@
         "install": "node-gyp rebuild",
         "test": "node test/test.js"
     },
-    "version": "0.5.1"
+    "version": "0.5.1",
+    "bin": {}
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module node-core-audio](#apidoc.module.node-core-audio)
-1.  [function <span class="apidocSignatureSpan">node-core-audio.</span>createNewAudioEngine ( options )](#apidoc.element.node-core-audio.createNewAudioEngine)
-
-
-
-# <a name="apidoc.module.node-core-audio"></a>[module node-core-audio](#apidoc.module.node-core-audio)
-
-#### <a name="apidoc.element.node-core-audio.createNewAudioEngine"></a>[function <span class="apidocSignatureSpan">node-core-audio.</span>createNewAudioEngine ( options )](#apidoc.element.node-core-audio.createNewAudioEngine)
-- description and source-code
-```javascript
-createNewAudioEngine = function ( options ) {
-		newAudioEngine= new AudioEngine( options );
-		return newAudioEngine;
-	}
-```
-- example usage
-```shell
-...
-the sound card.
-
-'''javascript
-// Create a new instance of node-core-audio
-var coreAudio = require("node-core-audio");
-
-// Create a new audio engine
-var engine = coreAudio.createNewAudioEngine();
-
-// Add an audio processing callback
-// This function accepts an input buffer coming from the sound card,
-// and returns an ourput buffer to be sent to your speakers.
-//
-// Note: This function must return an output buffer
-function processAudio( inputBuffer ) {
-...
 ```
 
 
